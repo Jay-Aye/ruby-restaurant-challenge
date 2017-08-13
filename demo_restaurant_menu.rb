@@ -7,7 +7,6 @@ class MenuItem
     @price = price
     @description = description
     @menu_section = menu_section
-    @options = options
   end
 
   attr_accessor :name, :price, :description, :menu_section, :options
